@@ -1,0 +1,30 @@
+Sym:
+- Symphony Market:
+  + 3rd party apps : 13
+  + Integration apps (bot) - using microservices: integration ibridges:
+      * JIRA (2-way integration) - UI
+      * GitHub - UI
+      * Zapier - UI
+      * Universal Webhook - API
+      * Salesforce - API
+      * Trello (not test)
+  + Extensions API apps
+  + Custom apps: no UI, no function
+
+- Articles
+- Hash/Cash hover card
+
+AC:
+- App Management:
+  + Built-in:
+      * 3rd party apps (only these apps appear on leftNav and have functions)
+      * integration apps (configurator page)
+      * apps created from support portal (do not care now)
+  + Custom:
+      * apps created from AC - UI: 2 ways
+        - Manually add
+        - Import json file
+      * apps created from API
+- App Settings: Used to enable/disable/show/hide apps in pod
+- User Details > Applications
+- Manage Certificates (for configuration only)
