@@ -1,0 +1,35 @@
+3 kinds of public api:
+- Authentication API - port :8444 is always required:
+    + Create session token + logout
+    + Create key manager token (for agent only) + logout
+--> For authentication purpose
+
+- Agent API /agent - (required 2 headers stoken + kmtoken)
+--> Related to messages/signals
+
+- Pod API /pod - (required 1 header stoken)
+---> The rest
+
+- Apps related: /appstore, /appcentral, /supportportal,...
+
+---------------------------------------------------------
+Get details about:
+- Certificates
+- Authentication
+- Internal API
+- Authentication API
+- Postman
+---------------------------------------------------------
+Agent healthcheck : check status, version of Agent
+/agent/v2/HealthCheck
+
+Agent info :
+https://qa5.symphony.com/agent/v1/info
+
+Integration healthcheck :
+https://qa5.symphony.com/integration/health
+
+SBE version :
+https://qa5.symphony.com/webcontroller/HealthCheck/version/advanced
+
+
